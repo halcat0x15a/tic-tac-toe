@@ -7,7 +7,8 @@
                  [org.clojure/tools.nrepl "0.2.0-beta10"]]
   :resource-paths ["/usr/lib/jvm/javafx-sdk/rt/lib/jfxrt.jar"]
   :cljsbuild {:builds [{:source-path "src-cljs"}]
-              :crossovers [tic-tac-toe.core]
+              :crossovers [tic-tac-toe.core
+                           tic-tac-toe.game]
               :crossover-path "src-cljs"
-              :crossover-jar false}
+              :crossover-jar true}
   :main tic-tac-toe.main)
