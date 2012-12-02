@@ -12,7 +12,7 @@
     </information>
     <resources>
         <j2se version="1.7+"/>
-        <jar href="target/tic-tac-toe-0.1.0-SNAPSHOT.jar" main="true"/>
+        <jar href="target/tic-tac-toe-0.1.0-SNAPSHOT-standalone.jar" main="true"/>
     </resources>
     <application-desc main-class="tic_tac_toe.main"></application-desc>
 </jnlp>
