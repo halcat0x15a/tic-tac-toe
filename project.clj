@@ -1,6 +1,6 @@
-(defproject gist "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+(defproject tic-tac-toe "0.1.0-SNAPSHOT"
+  :description "tic tac toe"
+  :url "http://halcat0x15a.github.com/tic-tac-toe/"
   :plugins [[lein-cljsbuild "0.2.9"]]
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [org.clojure/core.logic "0.7.5"]

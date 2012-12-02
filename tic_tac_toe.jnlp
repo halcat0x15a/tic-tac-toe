@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://halcat0x15a.github.com/tic-tac-toe/" href="tic_tac_toe.jnlp">
+    <information>
+        <title>Tic Tac Toe</title>
+        <vendor>baskingcat</vendor>
+        <homepage href="http://halcat0x15a.github.com/tic-tac-toe/"/>
+        <description>tic tac toe</description>
+        <offline-allowed />
+        <shortcut>
+            <desktop />
+        </shortcut>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.3/javafx-rt.jnlp"/>
+        <jar href="target/tic-tac-toe-0.1.0-SNAPSHOT.jar" main="true"/>
+    </resources>
+    <application-desc main-class="tic_tac_toe.main"></application-desc>
+</jnlp>
