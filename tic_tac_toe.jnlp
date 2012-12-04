@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp spec="1.0+" codebase="http://halcat0x15a.github.com/tic-tac-toe/" href="tic_tac_toe.jnlp">
+<jnlp spec="1.0+" xmlns:jfx="http://javafx.com" codebase="file:/home/halcat0x15a/tic_tac_toe/" href="tic_tac_toe.jnlp">
     <information>
         <title>Tic Tac Toe</title>
         <vendor>baskingcat</vendor>
         <homepage href="http://halcat0x15a.github.com/tic-tac-toe/"/>
         <description>tic tac toe</description>
         <offline-allowed />
-        <shortcut>
-            <desktop />
-        </shortcut>
     </information>
+    <security>
+        <all-permissions />
+    </security>
     <resources>
-        <j2se version="1.7+"/>
-        <jar href="target/tic-tac-toe-0.1.0-SNAPSHOT-standalone.jar" main="true"/>
+        <j2se version="1.7+" />
+        <jar href="target/tic-tac-toe-0.1.0-SNAPSHOT-standalone.jar" main="true" />
     </resources>
     <application-desc main-class="tic_tac_toe.main"></application-desc>
 </jnlp>
